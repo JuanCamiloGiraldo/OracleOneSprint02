@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="juego.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Ahorcado</title>
+</head>
+<body>
+    <header>
+        <img src="./imagenes/vector.png" alt="" class="logo">
+    </header>
+    <main>
+        <div class="contenedor" id="contenedor-todo">
+        <div class="contenedor" id="contenedor-imagen">
+        <div class="contenedor" id="imagen">
+        
+        </div>
+    </div>
+
+        <div class="contenedor" id="contenedor-palabra">
+
+            <ul class="palabra" id="palabra">
+         
+            </ul>
+        </div>
+
+        <div class="contenedor" id="contenedor-guiones">
+
+            <ul class="palabra" id="guiones">
+             
+
+            </ul>
+        </div>
+
+        <div class="contenedor" id="contenedor-incorrecto">
+
+            <ul class="palabra" id="incorrecto">
+               <li> </li>
+
+            </ul>
+        </div>
+
+        <div class="contenedor" id="contenedor-botones">
+            
+            <button class="boton" id="reiniciar" onclick="reiniciarJuego()">
+                Reiniciar 
+            </button>
+
+            <button class="boton" id="desistir" >
+                Desistir
+            </button>
+        </div>
+    </div>
+    </main>
+</body>
+<script src="app.js"></script>
+</html>
